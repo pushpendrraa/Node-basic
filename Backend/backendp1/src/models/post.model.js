@@ -5,5 +5,5 @@ const postschema=new mongoose.Schema({
     caption :String
 })
 
-const postmodel=mongoose.Model("posts",postschema);
+const postmodel=mongoose.model("posts",postschema);
 module.exports=postmodel;
